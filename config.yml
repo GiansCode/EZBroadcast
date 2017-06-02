@@ -1,0 +1,38 @@
+settings:
+    randomAnnouncements: false
+    messageInterval: 30
+    
+sound:
+    enabled: true
+    sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 10
+    pitch: 1
+    
+broadcasts:
+    'example':
+        messages:
+        - "Line 1"
+        - "Line 2"
+    'test':
+        messages:
+        - "&cColored Line 1"
+        - "&aColored Line 2"
+    'placeholderapi':
+        messages:
+        - "&eYour name is:"
+        - "&l%player_name%"
+        
+messages:
+    noPermission: "&cYou do not have the required permissions to perform this action!"
+    noBroadcastFound: "&cA Broadcast with the ID %id% cannot be found!"
+    incorrectArguments: "&cYou have specified incorrect arguments!"
+    reloadSuccess: "&aSuccessfully reloaded the plugin!"
+    help:
+    - " "
+    - "&cEZBroadcast v%version% &f- &aBy Gianluca"
+    - " "
+    - "&a/ezbroadcast &f- &cReceive this message"
+    - "&a/ezbroadcast list &f- &cList all of the created Broadcasts"
+    - "&a/ezbroadcast reload &f- &cReload the configuration"
+    - "&a/ezbroadcast bc <id> &f- &cForcefully broadcast the messages belonging <id> to everyone online"
+    - " "

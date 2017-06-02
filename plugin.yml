@@ -1,0 +1,12 @@
+name: EZBroadcast
+version: 1.0.2
+author: Gianluca
+main: com.gianlucamc.ezbroadcast.EZBroadcast
+description: An easy to use, up to date and highly customisable broadcasting plugin
+depend: [PlaceholderAPI]
+
+commands:
+    ezbroadcast:
+        usage: /<command>
+        aliases: [ezbc]
+        description: Base command
